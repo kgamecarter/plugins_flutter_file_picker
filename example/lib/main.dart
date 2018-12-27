@@ -61,14 +61,6 @@ class _MyAppState extends State<MyApp> {
                       value: _pickingType,
                       items: <DropdownMenuItem>[
                         new DropdownMenuItem(
-                          child: new Text('FROM CAMERA'),
-                          value: FileType.CAMERA,
-                        ),
-                        new DropdownMenuItem(
-                          child: new Text('FROM GALLERY'),
-                          value: FileType.IMAGE,
-                        ),
-                        new DropdownMenuItem(
                           child: new Text('FROM VIDEO'),
                           value: FileType.VIDEO,
                         ),
